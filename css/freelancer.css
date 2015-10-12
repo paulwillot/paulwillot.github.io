@@ -203,6 +203,12 @@ header {
     text-align: center; /* center */
     color: #fff;
     background: #18bc9c;
+
+    background-size: cover;
+    background-image: url("../img/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header .container {
