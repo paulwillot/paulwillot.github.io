@@ -227,11 +227,28 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+
+    /*color: transparent;*/
+    text-shadow: 0 0 10px rgba(0,0,0,1);
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    text-shadow: 0 0 10px rgba(0,0,0,1);
+    /*text-shadow: 0 0 10px rgba(255, 255, 255, 1);*/
+}
+
+header .intro-text .b_skills {
+    font-size: 1.25em;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgba(255, 252, 252, 1);
+}
+
+header .intro-text .l_skills {
+    font-size: 1.25em;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 @media(min-width:768px) {
@@ -246,6 +263,10 @@ header .intro-text .skills {
     }
 
     header .intro-text .skills {
+        font-size: 1.75em;
+    }
+
+    header .intro-text .b_skills {
         font-size: 1.75em;
     }
 }
