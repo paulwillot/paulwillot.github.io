@@ -205,7 +205,7 @@ header {
     background: #18bc9c;
 
     background-size: cover;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/jp.gif"); /*background.jpg*/
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
